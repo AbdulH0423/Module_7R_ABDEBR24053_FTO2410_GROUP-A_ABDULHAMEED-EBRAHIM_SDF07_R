@@ -28,3 +28,23 @@
         --fs-body: 1.125rem;
     }
 }
+
+/*general styles*/
+
+body{
+    background:var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size:var(--fs-body);
+    line-height: 1.5;
+}
+
+img{
+    display:block;
+    max-width: 100%;
+}
+section{
+    padding: 3em 1.5em;
+}
+
