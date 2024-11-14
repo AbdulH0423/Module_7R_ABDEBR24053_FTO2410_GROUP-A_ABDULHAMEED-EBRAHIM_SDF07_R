@@ -20,3 +20,11 @@
         0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
