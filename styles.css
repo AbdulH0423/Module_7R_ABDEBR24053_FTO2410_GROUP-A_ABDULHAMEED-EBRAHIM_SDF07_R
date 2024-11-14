@@ -48,3 +48,48 @@ section{
     padding: 3em 1.5em;
 }
 
+/*Typography*/
+
+h1,
+h2,
+h3{
+    line-height: 1.2;
+    margin:0;
+
+}
+h1 { 
+    font-size: var(--fs-h1);
+}
+h2 { 
+    font-size: var(--fs-h2);
+}
+h3 { 
+    font-size: var(--fs-h3);
+}
+
+.section__title{
+    padding:.25em;
+
+}
+
+.intro_title{
+    font-weight: var(--fw-reg);
+}
+strong{
+    font-weight: var(--fw-bold);
+    display:block;
+}
+
+
+.section__subtitle{
+    margin:0;
+    font-size:var(--fs-h3) ;
+}
+.section_subtitle_intro,
+.subtitle_aboutme{
+    background:var(--clr-accent);
+    padding: .25em 1em ;
+    font-family: var(--ff-secondary);
+    margin-bottom: 0.75em;
+}
+
