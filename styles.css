@@ -141,3 +141,10 @@ strong{
     color:var(--clr-light);
     text-align: center;
 
+}
+
+.services_title{
+    color:var(--clr-accent);
+    position:relative;
+}
+
