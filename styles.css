@@ -167,3 +167,14 @@ strong{
     margin-bottom: 5em;
 }
 
+@media (min-width:800px){
+    .services{
+        display: flex;
+        justify-content: space-around;
+        margin: 15px auto;
+    }
+    .service + .service{
+        margin-left: 5em;
+    }
+}
+
