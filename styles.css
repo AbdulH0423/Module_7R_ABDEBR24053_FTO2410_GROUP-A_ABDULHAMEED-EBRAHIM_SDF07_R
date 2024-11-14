@@ -148,3 +148,12 @@ strong{
     position:relative;
 }
 
+.service{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.services{
+    margin-bottom: 5em;
+}
+
