@@ -93,3 +93,14 @@ strong{
     margin-bottom: 0.75em;
 }
 
+/*intro section*/
+.intro{
+    position: relative;
+}
+
+.intro__image{
+    box-shadow: var(--bs) ;
+}
+.section_subtitle_intro{
+    display: block;
+}
