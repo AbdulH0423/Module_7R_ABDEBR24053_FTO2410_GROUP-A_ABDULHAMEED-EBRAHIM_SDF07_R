@@ -1,0 +1,22 @@
+/* Custom Properties */
+
+:root {
+    --ff-primary: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 250;
+    --fw-bold: 650;
+    
+    --clr-light: rgb(255, 255, 255);
+    --clr-dark: rgb(64, 62, 62);
+    --clr-accent: rgb(18, 154, 118);
+    
+    --fs-h1: 4rem;
+    --fs-h2: 2.5rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.25rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(53, 53, 53, 0.802),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
