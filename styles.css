@@ -148,6 +148,16 @@ strong{
     position:relative;
 }
 
+.services_title::after{
+    content:'';
+    display: block;
+    width: 20%;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
+}
+
 .service{
     max-width: 450px;
     margin: 0 auto;
