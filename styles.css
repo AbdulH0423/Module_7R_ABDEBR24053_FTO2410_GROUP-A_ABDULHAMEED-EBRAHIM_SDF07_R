@@ -178,3 +178,20 @@ strong{
     }
 }
 
+/*button*/
+
+.btn{
+    display: inline-block;
+    padding: .75em 2em;
+    background: var(--clr-accent);
+    color:var(--clr-dark);
+    font-size:1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: var(--fw-bold);
+    transition: transform 300ms ease-in;
+
+}
+.btn:hover {
+    transform: scale(1.25);
+}
