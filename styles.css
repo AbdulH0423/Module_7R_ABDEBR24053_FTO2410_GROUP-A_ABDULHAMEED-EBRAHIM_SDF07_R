@@ -96,6 +96,7 @@ strong{
 /*intro section*/
 .intro{
     position: relative;
+    
 }
 
 .intro__image{
@@ -194,4 +195,18 @@ strong{
 }
 .btn:hover {
     transform: scale(1.25);
+}
+
+
+
+
+/* About me section*/
+
+.about_me{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about_me_img{
+    box-shadow: var(--bs);
 }
