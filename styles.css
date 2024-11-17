@@ -97,6 +97,34 @@ strong{
     margin-bottom: 0.75em;
 }
 
+/* header */
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:1.5em;
+        
+}
+
+.logo{
+    max-width:100px;
+
+}
+.nav{
+    position:fixed;
+    background:var(--clr-dark);
+    color:var(--clr-light);
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:100;
+
+    transform: translateX(100%);
+    transition: transform 250ms ease-in;
+
+
+}
 /*intro section*/
 .intro{
     position: relative;
