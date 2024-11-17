@@ -210,3 +210,38 @@ strong{
 .about_me_img{
     box-shadow: var(--bs);
 }
+@media (min-width:600px) {
+    .about_me{
+        display: grid;
+        grid-template-areas: 
+        "title img"
+        "subtitle img"
+        "text img";
+        grid-template-columns: 1fr 250px;
+        grid-column-gap: 1.5em ;
+
+    }
+    .about_me_title{
+        grid-area: title;
+    }
+    .subtitle_aboutme{
+        grid-area:subtitle ;
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position:relative;
+        left:-1em;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
+
+    }
+    .about_me_body{
+        grid-area: text;
+
+    }
+    .about_me_img{
+        grid-area: img;
+        position:relative;
+        z-index: 2;
+    }
+}
