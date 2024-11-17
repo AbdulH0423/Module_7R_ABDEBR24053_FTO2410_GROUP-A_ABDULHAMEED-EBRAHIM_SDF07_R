@@ -299,7 +299,8 @@ header{
 @media (min-width:800px){
     .services{
         display: flex;
-        justify-content: space-around;
+        align-items: flex-start;
+        justify-content: space-evenly;
         margin: 15px auto;
     }
     .service + .service{
@@ -372,6 +373,7 @@ header{
         position:relative;
         z-index: 2;
     }
+}
 
 /*my work*/
 .my_work{
